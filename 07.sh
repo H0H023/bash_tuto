@@ -7,6 +7,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 
+sudo apt update
+
 # Ask to proceed
 
 read -p "Proceed ? (y/n) : " status
